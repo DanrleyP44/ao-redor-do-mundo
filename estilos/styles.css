@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@100;200;300;400;500&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&family=Passion+One:wght@400;700;900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@100;200;300;400;500&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sriracha&display=swap');
+
+:root {
+  --cor01: #1a2e1f;
+  --cor02: #faf8f4;
+  --titulo: 'Playfair Display', serif;
+  --texto: 'Lora', serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--texto);
+  background-image: url('../imagens/Mapa Mundi 2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  background-color: var(--cor01);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header > h1 {
+  font-family: var(--titulo);
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.463);
+}
+
+header > p {
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.463);
+}
+
+main {
+  margin: auto;
+  min-width: 400px;
+  max-width: 1000px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.449);
+  background-color: var(--cor02);
+}
+
+main h2 {
+  margin: 10px 0px 20px 0px;
+}
+
+main p {
+  margin-bottom: 10px;
+}
+
+#img01 {
+  background-image: url('../imagens/Amazônia.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+#img02 {
+  background-image: url('../imagens/Japão.jpg');
+  background-size: cover;
+  background-position: right center;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+#img03 {
+  background-image: url('../imagens/EUA.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+#img04 {
+  background-image: url('../imagens/Polônia.jpg');
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  height: 400px;
+  margin-bottom: 50px;
+}
+
+footer {
+  color: rgb(58, 58, 58);
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(58, 58, 58);
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: blue;
+}
